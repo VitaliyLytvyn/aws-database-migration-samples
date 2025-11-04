@@ -88,8 +88,8 @@ select 'Loading NFL teams...';
 source ./schema/set_nfl_team_home_field.sql
 call setNFLTeamHomeField;
 
-select 'Creating location seats...';
-call generateSeats;
+-- select 'Creating location seats...';
+-- call generateSeats;
 
 select 'Loading baseball players...';
 call loadMLBPlayers;
